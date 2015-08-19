@@ -1,0 +1,3 @@
+<li {% if active_link == "home" %}class="active"{% endif %}><a href="{% url 'home' %}">Avaleht</a></li>
+<li {% if active_link == "laenutused" %}class="active"{% endif %}><a href="{% url 'laenutused' %}">Laenutused</a></li>
+<li {% if active_link == "about" %}class="active"{% endif %}><a href="{% url 'about' %}">Mis see on?</a></li>
